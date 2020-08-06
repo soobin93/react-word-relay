@@ -33,7 +33,7 @@ class WordRelay extends Component {
     this.setState({ value: e.target.value })
   };
 
-  input;
+  input; // Why?
 
   onRefInput = (c) => {
     this.input = c;
