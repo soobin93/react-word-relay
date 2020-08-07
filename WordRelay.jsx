@@ -1,4 +1,5 @@
-import React, { useState, useRef } from 'react';
+const React = require('react');
+const { useState, useRef } = React;
 
 const WordRelay = () => {
   const [word, setWord] = useState('감자');
@@ -35,7 +36,7 @@ const WordRelay = () => {
           <input
             id="word-input"
             className="test-class"
-            ref={onRefInput}
+            ref={inputRef}
             value={value}
             onChange={onChangeInput}
           />
