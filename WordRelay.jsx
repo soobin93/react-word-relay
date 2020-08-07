@@ -25,7 +25,7 @@ const WordRelay = () => {
   };
 
   const onChangeInput = (e) => {
-    setValue({ value: e.target.value });
+    setValue(e.target.value);
   };
 
   return (
